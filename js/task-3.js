@@ -1,5 +1,11 @@
 function filterArray(numbers, value) {
-    
+    const sum = [];
+    for (const number of numbers){
+        if (number > value) {
+            sum.push(number);
+        }
+    }
+    return sum;
 }
 
 
